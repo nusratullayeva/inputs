@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+}
+
+body {
+    background-color: black;
+}
+
+.open {
+    background-color: yellow;
+    height: 710px;
+}
+
+img {
+    width: 65px;
+    height: 70px;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.box {
+    width: 465px;
+    height: 500px;
+    background-color: #fff;
+    margin-left: 65px;
+    border: none;
+    box-shadow: -11px 10px 20px -4px #767676;
+}
+
+.belgilar {
+    display: flex;
+    padding-left: 65px;
+}
+
+h6 {
+    padding-left: 110px;
+    padding-top: 15px;
+    font-weight: 100px;
+}
+
+form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 20px;
+    width: 100%;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.form {
+    display: flex;
+}
+
+.box input {
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+
+label {
+    color: gray;
+}
+
+::placeholder {
+    color: black;
+}
+
+.field {
+    display: flex;
+    gap: 50px;
+    color: rgb(118, 118, 118);
+    padding-left: 260px;
+}
